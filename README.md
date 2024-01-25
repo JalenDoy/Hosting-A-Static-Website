@@ -23,3 +23,14 @@
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/V97GtNn.png"/>
+
+<h2>Task 2: Uploading content to your bucket </h2>
+
+1. Download the following links to your computer (Unable to post links here)
+2. In the objects tab of the bucket select upload. Click add files and choose any files.
+3. Choose upload.
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/vskRqHZ.png"/>
+
