@@ -1,11 +1,5 @@
 # Hosting-A-Static-Website
 
-
-
-<p align="center">
-<br/>
-<img src="https://i.imgur.com/ZDpDGoq.png"/>
-
 <h2>Task 1: Creating a bucket in Amazon S3</h2>
 
 1. In the AWS Managment Console, click on S3 in the services menu.
@@ -24,4 +18,8 @@
      - Index Document: index.html (Type this in)
      - Error Doucment: error.html
 10. Save changes
-11. 
+11. In the Static website hosting panel, choose the link under Bucket website endpoint. (You will receive a 403 Forbidden message because the bucket permissions have not been configured yet. Keep this tab open in your web browser so that you can return to it later. Your bucket has now been configured to host a static website)
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/V97GtNn.png"/>
