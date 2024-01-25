@@ -28,9 +28,33 @@
 
 1. Download the following links to your computer (Unable to post links here)
 2. In the objects tab of the bucket select upload. Click add files and choose any files.
-3. Choose upload.
+3. Choose upload and then close
 
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/vskRqHZ.png"/>
+
+
+<h2>Task 3: Enabling Access to the Objects </h2>
+
+1. Select all three files that were uploaded and in the actions menu select Make public via ACL
+2. Choose Make Public
+3. The browser showing the 403 forbidden error should now be displaying the AWS static website. (Ensure to press the refresh button). 
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/3TZfxUc.png"/>
+
+<h2>Task 4: Updating the Website </h2>
+
+1. On your personal computer load the index.html file into a text editor such as NotePad. 
+2. Find the text Served from Amazon S3 and replace it with Created by <YOUR-NAME>, substituting your name for <YOUR-NAME> (for example, Created by Jane).
+3. Save the File
+4. Return to the S3 bucket that was created and upload the updated HTML file.
+5. Select index.html and use the Actions menu to choose the Make public via ACL option.
+6. Go back to the static website and press the refresh button. The Website should have updated.
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/0AJUlga.png"/>
 
